@@ -6,8 +6,10 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
-
 const PORT = process.env.PORT || 3001;
+
+const books = require('./modules/bookModel.js');
+
 
 app.get('/test', (request, response) => {
 
