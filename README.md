@@ -31,8 +31,8 @@ Create a small app to track what books have impacted you, and what’s recommend
 ### Name of feature: Storage
 - Estimate of time needed to complete: 1h
 - Start time: 3:20pm
-- Finish time:
-- Actual time needed to complete:
+- Finish time: 5:56pm
+- Actual time needed to complete: 2 hours and 36 minutes
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
