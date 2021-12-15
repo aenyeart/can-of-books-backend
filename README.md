@@ -30,8 +30,8 @@ Create a small app to track what books have impacted you, and what’s recommend
 ### Name of feature: Delete
 - Estimate of time needed to complete: 1.5h
 - Start time: 9:10p
-- Finish time:
-- Actual time needed to complete:
+- Finish time: 10:45p
+- Actual time needed to complete: 1.5h
 
 ### Name of feature: Storage
 - Estimate of time needed to complete: 1h
