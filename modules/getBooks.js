@@ -1,10 +1,8 @@
 'use strict';
 
-const mongoose = require('mongoose'); //TODO is this needed?
 const Book = require('./bookModel');
 
-async function handleGetBooks(req, res){
-    // let email = req.query.email;
+async function handleGetBooks(req, res) {
     let searchParameters = {};
     if(req.query.email){
         searchParameters = { email : req.query.email}
