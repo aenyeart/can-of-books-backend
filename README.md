@@ -27,6 +27,12 @@ Create a small app to track what books have impacted you, and what’s recommend
 - Finish time:
 - Actual time needed to complete:
 ---------------
+### Name of feature: Put
+- Estimate of time needed to complete: 30min
+- Start time: 1:30p
+- Finish time: 2:10p
+- Actual time needed to complete: 40min
+
 ### Name of feature: Delete
 - Estimate of time needed to complete: 1.5h
 - Start time: 9:10p
