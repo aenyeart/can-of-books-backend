@@ -2,7 +2,7 @@
 
 const Book = require('./bookModel');
 
-async function handlePostBooks(req, res) {
+async function handlePostBook(req, res) {
     //post books AKA create a book object and UPDATE the database
     //JSON objects go through body
     try {
@@ -14,4 +14,4 @@ async function handlePostBooks(req, res) {
     }
 }
 
-module.exports = handlePostBooks;
+module.exports = handlePostBook;
