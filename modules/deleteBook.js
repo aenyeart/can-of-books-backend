@@ -22,19 +22,3 @@ async function handleDeleteBook(req, res) {
 }
 
 module.exports = handleDeleteBook;
-
-/*
-Try {
-  verify first that user matches book to be deleted
-  if match
-    try {
-
-    }
-    catch {
-      server error
-    }
-  }
-  catch{
-    throw permisssions error (cannot execute)
-  }
-*/
