@@ -2,10 +2,10 @@
 const verifyUser = require('../auth');
 const Book = require('./bookModel');
 
-async function handlePutBook(req, res) {
+function handlePutBook(req, res) {
   const id = req.params.id;
   const updatedBookObj = req.body;
-  verifyUser(req, (err, user) => {
+  verifyUser(req, async (err, user) => {
     const email = user.email;
     if (err) {
       res.send('invalid token');

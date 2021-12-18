@@ -2,9 +2,9 @@
 const verifyUser = require('../auth');
 const Book = require('./bookModel');
 
-async function handleDeleteBook(req, res) {
+function handleDeleteBook(req, res) {
   const id = req.params.id;
-  verifyUser(req, (err, user) => {
+  verifyUser(req, async (err, user) => {
     if (err) {
       res.send('invalid token');
     } else {

@@ -2,8 +2,8 @@
 const verifyUser = require('../auth');
 const Book = require('./bookModel');
 
-async function handlePostBook(req, res) {
-  verifyUser(req, (err, user) => {
+function handlePostBook(req, res) {
+  verifyUser(req, async (err, user) => {
     if (err) {
       res.send('invalid token');
     } else {
