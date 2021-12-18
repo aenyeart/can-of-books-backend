@@ -6,7 +6,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3001;
-const verifyUser = require('./auth.js');
+const verifyUser = require('./auth.js'); // is this needed here?
 
 app.use(cors());
 app.use(express.json());
