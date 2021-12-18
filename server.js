@@ -26,7 +26,11 @@ app.get('/user', handleGetUser);
 
 function handleGetUser(req, res) {
   verifyUser(req, (err, user) => {
-
+    if (err) {
+      res.send('invalid token');
+    } else {
+      res.send(user);
+    }
   })
 }
 
