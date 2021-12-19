@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 const Book = require('./modules/bookModel.js');
 
 async function seed() {
-  // mongoose.connect('mongodb+srv://aenyeart:mongolia28@cluster0.bg6da.mongodb.net/books?retryWrites=true&w=majority');
   mongoose.connect(process.env.MONGO_DB_LIVE_URL);
 
   await Book.create({
@@ -37,5 +36,4 @@ seed();
 function test(){
   console.log(process.env.MONGO_DB_LIVE_URL);
 }
-// test();
 
